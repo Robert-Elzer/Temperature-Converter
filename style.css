@@ -1,0 +1,48 @@
+body {
+    background-color: navy;
+    color: white;
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#input {
+    margin-top: 35px;
+    max-height: 30px;
+}
+
+#input-selection {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+#input-unit {
+    margin-top: 10px;
+}
+
+#output-selection {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+#output-unit {
+    margin-top: 10px;
+}
+
+#convert-btn {
+    max-height: 30px;
+    margin-top: 35px;
+}
+
+#result-display {
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    height: 50px;
+}
